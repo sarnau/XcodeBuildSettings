@@ -243,5 +243,5 @@ def generateMarkdown(relPath, xcspecFilename, locFilename, markdownFilename):
                         print('\n', file=f)
                     print('\n', file=f)
 
-generateMarkdown("SharedSupport/Developer/Library/Xcode/Plug-ins/Clang LLVM 1.0.xcplugin/Contents/Resources/", "Clang LLVM 1.0.xcspec", "Apple Clang.strings", "Apple Clang Options.md")
-generateMarkdown("Frameworks/DevToolsCore.framework/Versions/A/Resources/", "CoreBuildSystem.xcspec", "CoreBuildSystem.strings", "Apple Clang Properties.md")
+generateMarkdown("SharedSupport/Developer/Library/Xcode/Plug-ins/Clang LLVM 1.0.xcplugin/Contents/Resources/", "Clang LLVM 1.0.xcspec", "Apple Clang.strings", "Xcode Options.md")
+generateMarkdown("Frameworks/DevToolsCore.framework/Versions/A/Resources/", "CoreBuildSystem.xcspec", "CoreBuildSystem.strings", "Xcode Properties.md")

@@ -2245,6 +2245,9 @@ Issue all the warnings demanded by strict ISO C and ISO C++; reject all programs
 
 
 
+# Apple Clang
+Apple Clang compiler
+
 # Static Analyzer
 Apple Clang Static Analyzer
 File types: C, Objective-C, C++, Objective-C++
